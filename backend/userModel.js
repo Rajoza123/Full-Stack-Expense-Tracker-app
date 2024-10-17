@@ -16,4 +16,6 @@ const userSchema = new mongoose.Schema({
     }
 },{timestamps:true})
 
-module.exports = us
+const User = mongoose.model('expenseapps', userSchema);
+
+module.exports = User

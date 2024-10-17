@@ -1,43 +1,83 @@
-/* Custom Footer Styling */
 .footer-custom {
-    background-color: #2c3e50; /* Same dark color as the navbar */
-    color: #ecf0f1; /* Light text color */
-    padding: 40px 0;
-    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1); /* Shadow on the top of the footer */
-  }
-  
-  .footer-custom h5 {
-    color: #f39c12; /* Highlighted heading color */
-    margin-bottom: 20px;
-  }
-  
-  .footer-custom p, .footer-custom a {
-    color: #ecf0f1;
-    font-size: 0.9rem;
-  }
-  
-  .footer-links {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .footer-links li {
-    margin-bottom: 10px;
-  }
-  
-  .footer-links a {
-    text-decoration: none;
-    color: #ecf0f1;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
-    color: #f39c12; /* Hover effect for links */
-  }
-  
-  .footer-copyright {
-    color: #bdc3c7; /* Subtle text color */
-    font-size: 0.8rem;
-    margin-top: 15px;
-  }
-  
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  /* Gradient background */
+  color: white;
+  /* Text color */
+  padding: 1rem 0;
+  /* Padding for a spacious look */
+  font-family: 'Arial', sans-serif;
+  /* Font style */
+}
+
+.footer-col {
+  margin-bottom: 0.8rem;
+  /* Space between columns */
+}
+
+.footer-custom h5 {
+  font-size: 1.2rem;
+  /* Heading size */
+  margin-bottom: 0.5rem;
+  /* Space below heading */
+  font-weight: bold;
+  /* Bold headings */
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  /* Font size for description */
+  margin: 0;
+  /* No margin */
+}
+
+.footer-custom p {
+  font-size: 0.85rem;
+  /* Font size for paragraphs */
+  margin: 0;
+  /* No margin */
+}
+
+.footer-links {
+  list-style: none;
+  /* Remove bullet points */
+  padding: 0;
+  /* No padding */
+}
+
+.footer-links li {
+  margin-bottom: 0.3rem;
+  /* Space between links */
+}
+
+.footer-links a {
+  color: #ffd700;
+  /* Bright link color */
+  text-decoration: none;
+  /* No underline */
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+  /* Space below social icons */
+}
+
+.social-icons a {
+  color: white;
+  /* Icon color */
+  margin-right: 10px;
+  /* Space between icons */
+  font-size: 1.2rem;
+  /* Icon size */
+}
+
+.footer-copyright {
+  font-size: 0.75rem;
+  /* Font size for copyright */
+  margin-top: 0.5rem;
+  /* Space above copyright */
+}
